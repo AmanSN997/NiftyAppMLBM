@@ -31,7 +31,8 @@ ui <- fluidPage(
       tabsetPanel(
         tabPanel("Stock Chart", plotOutput("stock_plot"), dataTableOutput("stock_table")),
         tabPanel("Relative Performance", plotOutput("relative_plot")),
-        tabPanel("Stock vs Nifty", plotlyOutput("stock_nifty_plot"))
+        tabPanel("Stock vs Nifty", plotlyOutput("stock_nifty_plot")),
+        tabPanel("Daily Changes", dataTableOutput("daily_changes_table")) # New tab
       )
     )
   )
