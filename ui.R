@@ -1,5 +1,5 @@
 # ui.R
-source("dependcies.R")
+source("dependencies.R")
 library(shiny)
 
 # Predefined Nifty 50 company symbols
