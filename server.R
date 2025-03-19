@@ -1,5 +1,5 @@
 # server.R
-source("dependcies.R")
+source("dependencies.R")
 library(shiny)
 library(quantmod)
 library(tidyverse)
