@@ -1,12 +1,11 @@
 # server.R
-
+source("dependcies.R")
 library(shiny)
 library(quantmod)
 library(tidyverse)
 library(lubridate)
 library(plotly)
 library(DT) # For data tables with conditional formatting
-
 server <- function(input, output) {
 
   stock_data <- eventReactive(input$fetch_data, {
